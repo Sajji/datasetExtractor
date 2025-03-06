@@ -1,5 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
+
+//CHANGE BELOW
 const baseUrl = 'https://YOURDOMAIN/rest/2.0/assets';
 const username = 'YOURUSERNAME';
 const password = 'YOURPASSWORD';
@@ -46,7 +48,7 @@ async function saveAssetsToFile(filename, assets) {
   });
 }
 
-// Example usage (replace with your credentials)
+// Type ID below is for Data Sets - you can replace it with something else if you want!
 const typeId = '00000000-0000-0000-0001-000400000001';
 
 
